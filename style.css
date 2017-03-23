@@ -1,0 +1,10 @@
+ul li{
+    list-style: none;
+    display:inline;
+    padding:10px;
+    color: white;
+    font-size: 40px;
+}
+body{
+    background-color: black;
+}
