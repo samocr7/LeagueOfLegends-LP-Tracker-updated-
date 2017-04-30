@@ -16,7 +16,7 @@ $.ajax({
     var rank=data[52371378][0].tier //gets rank
     var hrank = document.getElementById("rank");
     hrank.innerHTML=(rank);
-    for(var i=0; i<198; i++){
+    for(var i=0; i<568; i++){
        // console.log(data[52371378][0].entries[i].playerOrTeamName)
         if((data[52371378][0].entries[i].playerOrTeamName)=="Shajae"){
             div=data[52371378][0].entries[i].division; //gets current divison
@@ -53,7 +53,7 @@ $.ajax({
     var rank=data[83469669][0].tier //gets rank
     var hrank = document.getElementById("rank");
     hrank.innerHTML=(rank);
-    for(var i=0; i<198; i++){
+    for(var i=0; i<568; i++){
        // console.log(data[52371378][0].entries[i].playerOrTeamName)
         if((data[83469669][0].entries[i].playerOrTeamName)=="Lebanese Night"){
             div=data[83469669][0].entries[i].division; //gets current divison
